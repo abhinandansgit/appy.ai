@@ -1,0 +1,12 @@
+/ai_by_abhinandan/
+│
+├── app.py                  # Backend Python file
+├── templates/
+│   ├── index.html          # Main HTML file
+├── static/
+│   ├── css/
+│   │   └── style.css       # CSS styles
+│   ├── js/
+│   │   └── script.js       # JavaScript file
+│   ├── lottie/             # Lottie JSON files (optional animations)
+│   └── images/             # Any images used
