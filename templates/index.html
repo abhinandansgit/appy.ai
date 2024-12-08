@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Caveat:wght@400..700&family=Delius:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>AI by Abhinandan</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>APpy-AI 🤖</h1>
+            <p1> by Abhinandan🧑‍💻 |</p1>
+            <b><p2>Your Friendly AI Chatbot</p2>
+        </header>
+        <main>
+            <!-- Input Section -->
+            <div class="input-section">
+                <input id="user-input" type="text" placeholder="Enter your prompt here..." />
+                <button id="generate-btn">Generate response🚀</button>
+            </div>
+
+            <div id="loading-animation">
+                <span>G</span><span>e</span><span>n</span><span>e</span><span>r</span><span>a</span><span>t</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
+            </div>
+            
+            <!-- Output Section -->
+            <div class="output-section" id="output" style="display: none;">
+                <div id="output-placeholder">
+                    <strong></strong>
+                </div>
+                <pre id="output-text"></pre> <!-- Using <pre> to preserve formatting -->
+                <button id="copy-btn" style="margin-top: 10px;">Copy</button> <!-- Copy button positioned -->
+                <button id="read-btn" style="display: none;">Read Out</button>
+
+            </div>
+
+            <!-- Predefined Feature Buttons -->
+            <div class="feature-buttons">
+                <button id="lamborghini-btn">Describe Lamborghini Urus</button>
+                <button id="story-btn">Lazy Programmer Story</button>
+                <button id="joke-btn">Tell me a Joke</button>
+                <button id="quote-btn">Get Inspirational Quote</button>
+                <button id="fact-btn">Tell me a Fact</button>
+            </div>
+        </main>
+
+        <footer>
+         <b><p>👨‍💻 Made by Abhinandan Parhi | Connect on 
+                <a href="https://www.instagram.com/abhinandan_ap_" target="_blank">
+                    <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C;"></i>
+                </a>
+                <a href="https://in.linkedin.com/in/abhinandan-parhi-ap" target="_blank">
+                    <i class="fab fa-linkedin" style="font-size: 24px; padding: 4px; color: #0077B5;"></i>
+                </a>
+                <a href="https://github.com/abhinandansgit" target="_blank">
+                    <i class="fab fa-github" style="font-size: 24px; color: #333;"></i>
+                </a>
+            </p>
+            
+            <p>Powered by {googlegenai-api}</p>
+        </footer>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
