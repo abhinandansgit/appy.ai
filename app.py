@@ -4,8 +4,8 @@ import google.generativeai as genai
 # Initialize Flask app
 app = Flask(__name__)
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
-
+   port = int(os.environ.get("PORT", 5000))  # Use PORT environment variable
+    app.run(host="0.0.0.0", port=port)
 
 # Configure Google API Key
 genai.configure(api_key="AIzaSyCenB10p3CKKiVXqHiEiGTB5JtcNy2aDeM")
