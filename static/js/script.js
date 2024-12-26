@@ -45,7 +45,7 @@ document.getElementById("generate-btn").addEventListener("click", function () {
                     const headingText = line.match(/\*\*(.*?)\*\*/)[1];
                     const heading = document.createElement("h2");
                     heading.textContent = headingText;
-                    heading.style.color = "#FF6347";
+                    heading.style.color = "#d3f217";
                     heading.style.fontSize = "1.5em";
                     heading.style.fontWeight = "bold";
                     outputText.appendChild(heading);
