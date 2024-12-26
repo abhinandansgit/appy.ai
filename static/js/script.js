@@ -60,7 +60,7 @@ document.getElementById("generate-btn").addEventListener("click", function () {
                     const subheading = document.createElement("span");
                     subheading.textContent = subheadingText;
                     subheading.style.fontStyle = "italic";
-                    subheading.style.color = "#FF5349";
+                    subheading.style.color = "#d3f217";
 subheading.style.fontSize = "1.2em";
 subheading.style.fontWeight = "600";
 
