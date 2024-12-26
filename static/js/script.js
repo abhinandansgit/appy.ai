@@ -61,7 +61,8 @@ document.getElementById("generate-btn").addEventListener("click", function () {
                     subheading.textContent = subheadingText;
                     subheading.style.fontStyle = "italic";
                     subheading.style.color = "#4A90E2";
-subheading.style.fontSize = "1.2em";    subheading.style.fontWeight = "600";
+subheading.style.fontSize = "1.2em";
+subheading.style.fontWeight = "600";
 
                     paragraph.prepend(subheading);
                     outputText.appendChild(paragraph);
